@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/inidex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="src/img/logo.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="Blog.html"> Blog</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="authenticate">
+                <a href="shop.html"> <img src="src/img/Cart.png" alt=""></a>
+                <a href="login.html"> <button class="in">Sing in</button></a>
+                <a href="repass.html"><button class="up">sing up </button></a>
+            </div>
+
+        </header>
+
+
+
+        <div class="menu1">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+
+
+        <main>
+            <div class="bannner">
+                <div class="left">
+                    <button class=" quality">Quality Food</button>
+                    <p class="abc">Fastest <br> <span class="red"> Delivery</span> & <br> Easy <span
+                            class="red">Pickup</span></p>
+                    <p class="note">Best cooks and best delivery guys all at your service. Hot tasty food will reach you
+                        in 60 minutes.</p>
+
+                    <form action="#" onsubmit="return validate()">
+                        <input type="text" id="discover">
+                        <button type="submit" class=" discover">Discover</button>
+                    </form>
+
+                </div>
+                <div class="right">
+                    <img src="src/img/newbanner.jpg" alt="">
+                </div>
+            </div>
+            <div class="item-conten">
+                <p class="hihi">Our Popular Dishes</p>
+                <p class="haha">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqut enim ad minim </p>
+            </div>
+
+            <div class="filter">
+                <select name="" id="filter-select">
+                    <option value="" hidden>Lọc giá</option>
+                    <option value="all">Tất cả</option>
+                    <option value="under30">Dưới 30 $</option>
+                    <option value="over30">Trên 30 $</option>
+                </select>
+            </div>
+
+
+            <div class="sp">
+
+
+
+
+
+            </div>
+
+            <div class="cate-view">
+                <p class="cate">Categories</p>
+                <p class="all-cate">View All Categories</p>
+            </div>
+            <div class="sp2">
+                <div class="undo">
+                    <img src="src/img/com-nam.jpg" alt="">
+                    <p>Breakfast</p>
+                </div>
+
+                <div class="undo">
+                    <img src="src/img/rau.jpg" alt="">
+                    <p>Vegan</p>
+                </div>
+
+                <div class="undo">
+                    <img src="src/img/thit.jpg" alt="">
+                    <p>Meat</p>
+                </div>
+
+                <div class="undo">
+                    <img src="src/img/banh-kem.jpg" alt="">
+                    <p>Dessert</p>
+                </div>
+
+
+                <div class="undo">
+                    <img src="src/img/sand-wich.jpg" alt="">
+                    <p>Lunch</p>
+                </div>
+
+                <div class="undo">
+                    <img src="src/img/chocolate.jpg" alt="">
+                    <p>Chocolate</p>
+                </div>
+
+            </div>
+
+
+            <div class="Contact-us">
+                <p>Contact Us</p>
+                <form action="#" onsubmit="return validate2()">
+                    <div class="validate">
+
+                        <div class="tr">
+                            <tr>
+                                <th>Name <span style="color: red;">*</span></th><br>
+                                <td><input id="name" type="text" placeholder="Enter your name..."></td> <br>
+                                <span id="err-username" style="color:red"></span>
+                            </tr>
+                        </div>
+
+
+                        <div class="tr">
+                            <tr>
+                                <th>EMAIL ADDRESS<span style="color: red;">*</span></th><br>
+                                <td><input id="email" type="email" placeholder="Your email address..."></td>
+                                <span id="errol-email" style="color: red;"></span>
+                            </tr>
+                        </div>
+                        <div class="tr">
+                            <tr>
+                                <th>Subject<span style="color: red;">*</span></th> <br>
+                                <td><input id="subject" type="text" placeholder="Enter subject..."></td>
+                                <span id="errol-subject" style="color: red;"></span>
+                            </tr>
+                        </div>
+                        <div class="tr">
+                            <tr>
+                                <th>ENquiry type<span style="color: red;">*</span></th><br>
+                                <td>
+                                    <select id="Advertising">
+                                        <option value="0">Advertising</option>
+                                        <option value="1">Cường đẹp trai</option>
+                                        <option value="2">Như cái 2</option>
+                                    </select>
+                                    <span id="errol-enquiry" style="color: red;"></span>
+                                </td>
+                            </tr>
+                        </div>
+
+                    </div>
+                    <div class="messages">
+                        <tr>
+                            <td>MASSAGES</td>
+                            <td> <input type="text" placeholder=" Enter your massages"></td>
+                        </tr>
+                    </div>
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                    </div>
+
+            </div>
+            </form>
+
+        </main>
+        <footer>
+            <div class="menu3">
+                <div class="logo">
+                    <a href=""><img src="src/img/logo.png" alt=""></a>
+                </div>
+                <div class="menu2">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="src/js/main.js"></script>
+
+</body>
+
+</html>

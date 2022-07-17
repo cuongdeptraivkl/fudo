@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/inidex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="src/img/logo.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="Blog.html"> Blog</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="authenticate">
+               <a href="shop.html"> <img src="src/img/Cart.png" alt=""></a>
+                <a href="login.html"> <button class="in">Sing in</button></a>
+                <a href="repass.html"><button class="up">sing up </button></a>
+            </div>
+
+        </header>
+
+
+
+        <div class="menu1">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+
+
+        <main>
+            <div class="bannner">
+                <div class="left">
+                    <button class=" quality">Quality Food</button>
+                    <p class="abc">Fastest <br> <span class="red"> Delivery</span> & <br> Easy <span
+                            class="red">Pickup</span></p>
+                    <p class="note">Best cooks and best delivery guys all at your service. Hot tasty food will reach you
+                        in 60 minutes.</p>
+
+                    <form action="#" onsubmit="return validate()">
+                        <input type="text" id="discover">
+                        <button type="submit" class=" discover">Discover</button>
+                    </form>
+
+                </div>
+                <div class="right">
+                    <img src="src/img/newbanner.jpg" alt="">
+                </div>
+            </div>
+
+
+            <br> <br> <br>
+            <H1 style="text-align:center ;">YOUR CART INFORMATION</H1><br>
+            <div class="i" style="text-align: center;">
+                <i>( Good to the last drop !               </i> <br> <br> 
+                <i style="color: orangered; font-size: 25px;">* * * * *</i>
+            </div> <br> <br> 
+            <hr> <br> <br> 
+            <div class="theshop">
+
+                <div class="giohang">
+                    <form action="">
+                        <table border="1">
+                           <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>SẢN PHẨM</th>
+
+                                <th>TÊN SẢN PHẨM</th>
+
+                                <th> ĐƠN GIÁ</th>
+                                <th>SỐ LƯỢNG</th>
+                                <th>TẠM TÍNH</th>
+                                <th>XOÁ</th>
+
+                            </tr>
+                           </thead>
+                            <thead id="header-content">
+                              
+                                <!-- <tr>
+                                    <td></td>
+                                    <td><img src="${item.image}" width="120px" alt=""></td>
+                                    <td class="tittle-form">${item.name} </td>
+                                    <td class="price"> ${item.price}</td>
+                                    <td><input type="number" value="0" min="1" onchange="tinhtien(this)"></td>
+                                    <td class="thanhtien"></td>
+                                    <td><button onclick="removerUser()">DELETE</button></td>
+                                      </tr> -->
+                              
+                            </thead>
+                            <tr>
+                                <th colspan="5" class="price">Tổng tiền</th>
+                                <td id="tongtien">0</td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="menusub">
+                    <h2>BREAKFAST</h2>
+                    <ul>
+                        <li><a href="#">Fresh and Healthy Mixed Mayonnaise Salad</a></li>
+                        <li><a href="#">The Creamiest Creamy Chicken</a></li>
+                        <li><a href="">The Creamiest Creamy Chicken</a></li>
+                        <li><a href="">Big and Juicy Wagyu Beef Cheeseburger</a></li>
+                    </ul>
+                    <h2>VEGAN</h2>
+                        <ul>
+                            <li><a href="">The Best Easy One Pot Chicken and Rice</a></li>
+                            <li><a href="">Fruity Pancake with Orange & Blueberry</a></li>
+                        </ul>
+                    <h2>MEAT</h2>
+                    <ul>
+                        <li><a href="#">Fresh and Healthy Mixed Mayonnaise Salad</a></li>
+                        <li><a href="#">The Creamiest Creamy Chicken</a></li>
+                        <li><a href="">The Creamiest Creamy Chicken</a></li>
+                        <li><a href="">Big and Juicy Wagyu Beef Cheeseburger</a></li>
+                    </ul>
+                   
+                    
+                </div>
+            </div>
+
+
+
+
+
+            <footer>
+                <div class="menu3">
+                    <div class="logo">
+                        <a href=""><img src="src/img/logo.png" alt=""></a>
+                    </div>
+                    <div class="menu2">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="product.html">Products</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+    </div>
+    <script src="src/js/main.js"></script>
+    
+
+</body>
+
+</html>

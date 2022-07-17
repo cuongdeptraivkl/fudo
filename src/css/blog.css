@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+}
+.banner img{
+    width: 100%;
+}
+.img img{
+    width: 100%;
+}
+.logo img{
+    width: 100%;
+}
+.Option img{
+    width: 100%;
+}
+.time img{
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.menu li {
+    display: inline-block;
+    padding: 0 32px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.button-menu button a{
+    text-decoration: none;
+}
+.button-menu {
+    display: flex;
+    align-items: center;
+}
+ul li a:hover{
+color: #F54748;
+}
+.button-menu button{
+    width: 80px;
+    height: 45px;
+    border-radius: 5px;
+
+}
+a{
+    text-decoration: none;
+}
+#SignIn {
+    border: 1px solid #F54748;
+    background-color: white;
+    color: #F54748;
+    margin: 0 20px;
+}
+#SignUp {
+    border: 1px solid #F54748;
+    color: white;
+    background-color: #F54748;
+}
+.Big-and-Juicy {
+    column-gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    align-items: center;
+}
+.title-big  h1{
+    font-size: 50px;
+    text-shadow: 5px 2px 4px grey;
+}
+.title-big  h2{
+    color: #F54748;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.title-big p{
+    width: 580px;
+    margin-bottom: 32px;
+    font-size: 22px;
+    text-align: justify;
+}
+.img-big img{
+    width: 600px;
+    height: 400px;
+}
+.title-food h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(253, 117, 72);
+    padding: 80px 0 50px;
+    text-shadow: 5px 2px 4px rgb(207, 157, 81);
+}
+.food-c{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img-food img {
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+}
+.food-c{
+    padding:  60px 0;
+}
+.food-c h2{
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: rgb(151, 8, 208);
+    text-shadow: 5px 2px 4px grey;
+}
+.food-c p{
+    font-size: 25px;
+    color: rgb(51, 51, 51);
+    text-align: justify;
+}
+.content-food{
+    padding:  60px 20px;
+}
+.footer {
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-between;
+}
